@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title: "Hello World!"
+date: 2014-10-21 02:42:42
+categories: general
 ---
 
 ## Hello World!
