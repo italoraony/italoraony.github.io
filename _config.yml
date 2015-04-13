@@ -1,10 +1,10 @@
 # Site settings
 title: Italo Lima
-email: italo@auburn.edu
+email: italo
 description: > # this means to ignore newlines until "baseurl:"
   I need to write some very nice description of this site. 
   For now, just know that this is my site.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath f your site, e.g. /blog/
 url: "italoraony.github.io" # the base hostname & protocol for your site
 twitter_username: italoraony
 github_username:  italoraony
