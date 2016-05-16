@@ -21,14 +21,15 @@ Hello world Test!
 
 This is a test of using R-Markdown with Jekyll.
 
-
-
-
-```r
-qplot(carat, price, data = diamonds, color = color)
+```{r include=FALSE}
+require('knitr')
+require('servr')
+require('ggplot2')
 ```
 
-![plot of chunk unnamed-chunk-2](/figure/source/2015-02-16-HelloKnitr/unnamed-chunk-2-1.png) 
+```{r}
+qplot(carat, price, data = diamonds, color = color)
+```
 
 TEstt
 
